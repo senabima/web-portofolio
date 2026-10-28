@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website portofolio pribadi">
+  <title>Portofolio | Bima Aditya Surya Saputra</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">portofolio<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#about">About</a>
+      <a href="#skills">What I Can Do</a>
+      <a href="#work">Work Gallery</a>
+      <a href="#achievement">Achievement</a>
+      <a class="nav-contact" href="#contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> MAHASISWA INFORMATIKA</p>
+        <h1>Halo, Saya<br><span class="accent">Bima</span></h1>
+        <p class="hero-text">Saya sedang belajar, bereksperimen, dan membangun berbagai hal di dunia teknologi. Selamat datang di website portofolio saya!</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Lihat Karya <span>↗</span></a>
+          <a class="button secondary" href="#contact">Hubungi Saya</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>01</strong><span>Terus belajar</span></div>
+          <div><strong>02</strong><span>Berani mencoba</span></div>
+          <div><strong>03</strong><span>Berproses</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi dekoratif">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-card">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <p class="code-muted">// perjalanan saya</p>
+          <p><span class="code-purple">const</span> <span class="code-blue">student</span> = {</p>
+          <p class="code-indent">name: <span class="code-green">"Bima Aditya Surya Saputra"</span>,</p>
+          <p class="code-indent">major: <span class="code-green">"Sistem Informasi"</span>,</p>
+          <p class="code-indent">status: <span class="code-green">"learning"</span>,</p>
+          <p class="code-indent">curious: <span class="code-orange">true</span></p>
+          <p>};</p>
+          <div class="terminal-line"><span>➜</span> building my future<span class="cursor">_</span></div>
+        </div>
+        <div class="floating-badge badge-top">✳ Creative mind</div>
+        <div class="floating-badge badge-bottom">{" "} Learning by doing ✦</div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <p>CURIOUS BY NATURE <span>✳</span> GROWING THROUGH PROJECTS <span>✳</span> OPEN TO OPPORTUNITIES <span>✳</span></p>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>Mengenal saya<br><span class="muted">lebih dekat.</span></h2>
+      </div>
+      <div class="about-content">
+        <p class="large-copy">Halo! Saya Bima Aditya Surya Saputra, mahasiswa S1 Sistem Informasi di Universitas Negeri Surabaya (UNESA) yang memiliki minat dalam bidang teknologi informasi, pengembangan sistem, dan analisis bisnis.</p>
+        <p>Saya memiliki semangat untuk terus belajar, mengembangkan keterampilan, serta mencari pengalaman baru di dunia teknologi. Melalui portofolio ini, saya ingin memperkenalkan diri, menampilkan proyek, dan membagikan perjalanan saya dalam mengembangkan kemampuan di bidang Sistem Informasi.</p>
+        <div class="profile-grid">
+          <div><span>Nama</span><strong>Bima Aditya Surya Saputra</strong></div>
+          <div><span>NIM</span><strong>26051214091</strong></div>
+          <div><span>Program Studi</span><strong>Sistem Informasi</strong></div>
+          <div><span>Pendidikan</span><strong>Universitas Negeri Surabaya</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">02 / WHAT I CAN DO</p>
+        <h2>Hal yang sedang<br><span class="muted">saya kembangkan.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">⌘</div><h3>Programming</h3>
+          <p>Memahami dasar pemrograman dan berlatih membuat program sederhana.</p>
+          <div class="tags"><span>Python</span><span>Problem Solving</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">◫</div><h3>Web Development</h3>
+          <p>Membangun halaman web yang rapi, responsif, dan mudah digunakan.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">⌁</div><h3>Tools & Collaboration</h3>
+          <p>Menggunakan tools pendukung untuk belajar, mengelola proyek, dan bekerja sama.</p>
+          <div class="tags"><span>VS Code</span><span>GitHub</span><span>Teamwork</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-heading heading-row">
+        <div><p class="eyebrow">03 / WORK GALLERY</p><h2>Proyek & <span class="muted">karya.</span></h2></div>
+        <p class="heading-description">Beberapa contoh karya yang bisa kamu ganti dengan proyek milikmu sendiri.</p>
+      </div>
+      <div class="work-grid">
+        <article class="project-card project-one">
+          <div class="project-top"><span>PROJECT 01</span><span>↗</span></div>
+          <div class="project-visual visual-code"><span>print(</span><b>"Hello World"</b><span>)</span><i>01</i></div>
+          <div class="project-info"><div><h3>Program Python Sederhana</h3><p>Program latihan untuk memahami dasar pemrograman.</p></div><span class="project-arrow">↗</span></div>
+          <div class="tags"><span>Python</span><span>Beginner</span></div>
+        </article>
+        <article class="project-card project-two">
+          <div class="project-top"><span>PROJECT 02</span><span>↗</span></div>
+          <div class="project-visual visual-web"><div class="mock-browser"><i></i><i></i><i></i><div class="mock-content"><b>My Website</b><span></span><span></span><em>Explore ↗</em></div></div></div>
+          <div class="project-info"><div><h3>Website Portofolio</h3><p>Website untuk memperkenalkan profil dan kemampuan.</p></div><span class="project-arrow">↗</span></div>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project-card project-three">
+          <div class="project-top"><span>PROJECT 03</span><span>↗</span></div>
+          <div class="project-visual visual-data"><div class="bar-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div><p>DATA / ANALYSIS</p></div>
+          <div class="project-info"><div><h3>Analisis Data</h3><p>Latihan mengolah data dan menyajikan hasil sederhana.</p></div><span class="project-arrow">↗</span></div>
+          <div class="tags"><span>Python</span><span>Data</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section achievement-section" id="achievement">
+      <div class="section-heading">
+        <p class="eyebrow">04 / ACHIEVEMENT</p>
+        <h2>Setiap langkah<br><span class="muted">adalah kemajuan.</span></h2>
+      </div>
+      <div class="achievement-list">
+        <article class="achievement-item"><div class="achievement-year">2026</div><div><h3>Gemini Certified Student</h3><p>Mahir menggunakan AI Gemini sebagai asisten cerdas untuk mempercepat analisis, riset, dan penyelesaian masalah secara profesional.</p><span class="achievement-label"></span></div><span class="achievement-symbol">↗</span></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-inner">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Ada ide menarik?<br><span>Mari terhubung.</span></h2>
+        <p>Saya terbuka untuk berdiskusi, belajar bersama, dan berkolaborasi dalam proyek yang menarik.</p>
+        <a class="button light-button" href="mailto:emailkamu@example.com">Kirim Email <span>↗</span></a>
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/bima-aditya-surya-saputra-2269b1440?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:putrasurya0808@gmail.com">Email ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="logo" href="#home">portofolio<span>.</span></a><p>Dibuat dengan semangat belajar © <span id="year"></span></p><a href="#home">Kembali ke atas ↑</a></footer>
+</body>
+</html>
